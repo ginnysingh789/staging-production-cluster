@@ -2,13 +2,13 @@
   "name": "@repo/db",
   "version": "1.0.0",
   "main": "index.js",
-  "type": "module",
   "exports":{
     "./client":"./src/index.ts"
 
   },
   "devDependencies": {
-    "@repo/typescript-config": "workspace:*"
+    "@repo/typescript-config": "workspace:*",
+    "@types/node": "^20.0.0"
   },
   "keywords": [],
   "author": "",

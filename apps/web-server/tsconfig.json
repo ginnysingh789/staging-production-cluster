@@ -3,5 +3,8 @@
   "compilerOptions": {
     "rootDir": "./src",
     "outDir": "./dist",
+    "module": "Node16",
+    "target": "ES2022",
+    "moduleResolution": "Node16"
   }
-}  
+}

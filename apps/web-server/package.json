@@ -1,6 +1,7 @@
 {
   "name": "web-server",
   "version": "1.0.0",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "build": "tsc -b",
@@ -11,10 +12,6 @@
     "@repo/db": "workspace:*",
     "@repo/typescript-config": "workspace:*"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
     "@types/ws": "^8.18.1",
     "ws": "^8.18.3"

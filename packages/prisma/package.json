@@ -2,6 +2,13 @@
   "name": "@repo/db",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "generate": "prisma generate",
+    "migrate:dev": "prisma migrate dev",
+    "migrate:deploy": "prisma migrate deploy",
+    "studio": "prisma studio",
+    "db:push": "prisma db push"
+  },
   "exports":{
     "./client":"./src/index.ts"
 
